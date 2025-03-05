@@ -8,5 +8,8 @@ class Main{
 		System.out.println("Deck created.");
 		deck.displayDeck();
 		System.out.println("Shuffling Deck..");
+		System.out.println("Displaying shuffled deck");
+		deck.shuffleDeck();
+		deck.displayDeck();
 	}
 }
