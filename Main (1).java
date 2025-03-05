@@ -5,5 +5,8 @@ class Main{
 		Deck deck = new Deck();
 		System.out.println("Creating Deck..");
 		deck.createDeck();
+		System.out.println("Deck created.");
+		deck.displayDeck();
+		System.out.println("Shuffling Deck..");
 	}
 }
