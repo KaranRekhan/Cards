@@ -11,5 +11,8 @@ class Main{
 		System.out.println("Displaying shuffled deck");
 		deck.shuffleDeck();
 		deck.displayDeck();
+		System.out.println("Assigning two cards to the user at random");
+		deck.randomCards();
+		System.out.println("Assigning five cards to the user at random");
 	}
 }
