@@ -14,5 +14,7 @@ class Main{
 		System.out.println("Assigning two cards to the user at random");
 		deck.randomCards();
 		System.out.println("Assigning five cards to the user at random");
+		deck.random5Cards();
+		System.out.println("To show the top card of the deck");
 	}
 }
